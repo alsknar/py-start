@@ -12,3 +12,21 @@ for i in 'hello world':
     # end - что будет подставлятся в конце строки. По умолчанию \n перенос строки
     print(i * 2, end='')
 
+# Для новой печати с новой строки
+print()
+
+for i in 'hello world':
+    if i == 'o':
+        continue # переход к следующему проходу цикла
+    print(i * 2, end='')
+
+print()
+
+for i in 'hello world':
+    if i == 'o':
+        break
+    print(i * 2, end='')
+
+
+
+
