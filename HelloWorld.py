@@ -27,6 +27,8 @@ for i in 'hello world':
         break # прекращение выполнения цикла
     print(i * 2, end='')
 
+print()
+
 for i in  'hello world':
     if i == 'a':
         break
