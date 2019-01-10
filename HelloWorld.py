@@ -27,6 +27,12 @@ for i in 'hello world':
         break # прекращение выполнения цикла
     print(i * 2, end='')
 
+for i in  'hello world':
+    if i == 'a':
+        break
+else: # Выполняется только если break не был вызван
+    print('No letter a in the string')
+
 
 
 
