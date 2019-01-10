@@ -35,6 +35,17 @@ for i in  'hello world':
 else: # Выполняется только если break не был вызван
     print('No letter a in the string')
 
+a = int(input("Enter number: "))
+if a < -5:
+    print('Low')
+elif -5 <= a <= 5:
+    print('Mid')
+else:
+    print('Hight')
+
+
+
+
 
 
 
