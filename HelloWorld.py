@@ -24,8 +24,10 @@ print()
 
 for i in 'hello world':
     if i == 'o':
-        break
+        break # прекращение выполнения цикла
     print(i * 2, end='')
+
+
 
 
 
