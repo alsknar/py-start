@@ -1,3 +1,5 @@
+#HelloWorld.py
+
 print("Hello World!")
 name = input("What is your name: ")
 # Переменные можна устанавливать через запятую сколько угодно. Будут выводится через пробел
