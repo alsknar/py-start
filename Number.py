@@ -36,4 +36,31 @@ print('Количество бит для числа -37 ', n.bit_length())
 
 print('Число -37 в байтах ', n.to_bytes(2,byteorder='big',signed=True))
 
+print('Десятичное число из байта ', int.from_bytes(n.to_bytes(2,byteorder='big',signed=True),byteorder='big',signed=True))
+
+# Вещественные числа
+
+n = 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1
+print(n) # 0.99999999999999 Вещественные числа с ошибками, не поддерживают длинную матемитику
+
+n = 0.998
+print(n.as_integer_ratio())
+
+if n.is_integer():
+    print('Целое число')
+else:
+    print('Действительное число')
+
+print('Действительное число в шестнадцатеричном виде ',n.hex())
+
+print('Из шестнадцатерисного вида в действительное число', float.fromhex(n.hex()))
+
+# Подключение сторонних модулей
+import math
+import random
+
+print(math.pi)
+print(random.random())
+
+
 
