@@ -97,12 +97,13 @@ op = input('Введите операцию ')
 
 if (op == '+'):
     print("" + str(s1) + ' + ' + str(s2) + ' = ' + (s1 + s2))
-elif op == '*':
+elif (op == '*'):
     print(s1 + ' * ' + s2 + ' = ' + (s1 * s2))
-elif op == '-':
+elif (op == '-'):
     print(s1 + ' - ' + s2 + ' = ' + (s1 - s2))
-elif op == '/' and s2 != 0:
+elif (op == '/') and (s2 != 0):
     print(s1 + ' / ' + s2 + ' = ' + (s1 / s2))
 else:
-    print('Ошибочная операция')
+    print('Ошибочная операция')admin
+    
 
