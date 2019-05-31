@@ -1,8 +1,11 @@
+#Работа со списками
+
 l = list('list')
 print(l)
 
 c = [c* 3 for c in 'list']
 print(c)
+
 
 #list.append(x)	Добавляет элемент в конец списка
 #list.extend(L)	Расширяет список list, добавляя в конец все элементы списка L
@@ -20,3 +23,4 @@ l = [1,2,99,5,7]
 print(l)
 l.sort()
 print(l)
+
